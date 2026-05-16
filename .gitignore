@@ -35,11 +35,13 @@ venv.bak/
 *.swp
 *.swo
 *~
-
-# ОС
 .DS_Store
 Thumbs.db
 
-# Rosalind (если не хочешь заливать все тестовые файлы)
+# Rosalind тестовые файлы
 *.txt
-!rosalind_dna.txt   # оставляем только этот файл
+!rosalind_dna.txt     # ← Оставляем только sample dataset
+
+# Дополнительно (по желанию)
+*.log
+*.tmp
