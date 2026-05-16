@@ -33,6 +33,4 @@ Python
 
 File txt
 
-Dictionary for counting
 
-if __name__ == "__main__" Python guard
