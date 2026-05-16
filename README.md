@@ -31,6 +31,9 @@ Finally, it prints the counts in the order: A C G T.
 TECHNOLOGIES USED
 
 Python 3
+
 File txt
+
 Dictionary for counting
+
 if __name__ == "__main__" guard
