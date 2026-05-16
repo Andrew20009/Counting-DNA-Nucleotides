@@ -21,7 +21,15 @@ def count_nucleotides(sequence: str) -> dict: # Count occurrences of each nucleo
 if __name__ == "__main__": # Entry point of the code
     file = "rosalind_dna.txt" # Assign the filename to the variable
     
-    seq = read_dna_from_txt(file) 
-    counts = count_nucleotides(seq)
-    
-    print(counts['A'], counts['C'], counts['G'], counts['T'])
+    # Simple verification that txt file is present
+    try:
+        seq = read_dna_from_txt(file)
+        counts = count_nucleotides(seq)
+        
+        print(counts['A'], counts['C'], counts['G'], counts['T'])
+        
+    except FileNotFoundError:
+        print(f"Error: File'{file}' not found!")
+        print("Put file rosalind_dna.txt in the same folder as code.")
+    except Exception as e:
+        print(f"Error Occured: {e}")
