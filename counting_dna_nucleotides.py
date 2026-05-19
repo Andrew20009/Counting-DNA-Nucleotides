@@ -28,8 +28,8 @@ if __name__ == "__main__": # Entry point of the code
         
         print(counts['A'], counts['C'], counts['G'], counts['T'])
         
-    except FileNotFoundError:
-        print(f"Error: File'{file}' not found!")
-        print("Put file rosalind_dna.txt in the same folder as code.")
+    except FileNotFoundError: # If file is not find
+        print(f"Error: File'{file}' not found!") #Print Error File Not Found
+        print("Put file rosalind_dna.txt in the same folder as code.") # Says to the user to put rosalind_dna.txt in the same folder as code
     except Exception as e:
         print(f"Error Occured: {e}")
