@@ -29,7 +29,7 @@ ENV/
 env.bak/
 venv.bak/
 
-# IDE и редакторы
+# IDE and redactors
 .vscode/
 .idea/
 *.swp
@@ -38,10 +38,10 @@ venv.bak/
 .DS_Store
 Thumbs.db
 
-# Rosalind тестовые файлы
+# Rosalind txt files
 *.txt
-!rosalind_dna.txt     # ← Оставляем только sample dataset
+!rosalind_dna.txt     # ←Keeping only sample dataset
 
-# Дополнительно (по желанию)
+# Extra
 *.log
 *.tmp
