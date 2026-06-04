@@ -1,7 +1,9 @@
 Counting DNA Nucleotides
+
 OVERVIEW
+
 This program reads a DNA sequence from a text file and counts the occurrences of its four nucleotides: Adenine (A), Cytosine (C), Guanine (G), and Thymine (T).
-It is a solution to the "Counting DNA Nucleotides" Rosalind.info problem (ID: DNA). The tool is simple, efficient, and ideal for practicing file handling and string processing in Python.
+It is a solution to the "Counting DNA Nucleotides" Rosalind problem (ID: DNA). The tool is simple, efficient, and ideal for practicing file handling and string processing in Python.
 
 FEATURES
 
@@ -14,7 +16,7 @@ Clean, well-commented code with proper functions and docstrings
 
 IMPORTANT NOTE
 
-!!!Please put the Input txt with name rosalind_dna.txt in the same folder as the code, otherwise you will reacive an Error File Not Found!!!
+!!!Please put the Input txt with name rosalind_dna.txt in the same folder as the code, otherwise you will receive an Error File Not Found!!!
 
 
 EXAMPLE
