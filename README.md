@@ -36,7 +36,7 @@ AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
 
 ## HOW IT WORKS
 1. The program reads the DNA sequence from the file
-2. It cleans the input (removes whitespace and converts to **uppercase**)
+2. It cleans the input (removes whitespace and converts to uppercase)
 3. It iterates through each character and counts only <u>valid nucleotides (A, C, G, T)</u>
 4. Finally, it prints the counts in the order: **A C G T**
 
@@ -44,4 +44,4 @@ AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
 
 ## TECHNOLOGIES USED
 - **Python**
-- **File I/O** (txt)
+- **TXT File**
