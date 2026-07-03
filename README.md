@@ -8,7 +8,7 @@ It is a solution to the **"Counting DNA Nucleotides"** Rosalind problem **(ID: D
 
 ## FEATURES
 - Reads DNA sequence from a file <u>(rosalind_dna.txt)</u>
-- Automatically converts input to **uppercase**
+- Automatically converts input to uppercase
 - Counts occurrences of <u>A, C, G, and T</u>
 - Ignores any non-nucleotide characters
 - Fast and memory-efficient — works well with long sequences
